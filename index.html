@@ -20,8 +20,14 @@
         </div>
     </header>
     <main class="container mx-auto py-8 px-4">
-        <!-- Main content will go here -->
-    </main>
+    <!-- Other sections -->
+    <h2 class="text-2xl font-bold mb-4">Prototyping Tools</h2>
+    <div id="prototypeContainer" class="border rounded p-4 mb-6">
+        <button onclick="addElement('text')" class="bg-green-500 text-white px-4 py-2 rounded mr-2">Add Text</button>
+        <button onclick="addElement('image')" class="bg-green-500 text-white px-4 py-2 rounded">Add Image</button>
+    </div>
+    <div id="designCanvas" class="border rounded p-4 h-64 bg-white"></div>
+</main>
     <footer class="bg-white shadow py-4">
         <div class="container mx-auto text-center">
             &copy; 2024 DesignSpark. All rights reserved.
