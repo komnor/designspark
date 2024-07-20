@@ -1,0 +1,10 @@
+DesignSpark/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── main.js
+├── img/
+│   └── logo.png
+└── backend/
+    └── server.js
